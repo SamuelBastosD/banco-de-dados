@@ -1,0 +1,1 @@
+select * from `cidade`,`estado` where `cidade` like '%rio%' and   `cidade`.`uf`=`estado`.`id`;
